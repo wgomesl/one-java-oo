@@ -18,6 +18,9 @@ public class TestaMetodo {
 		
 		System.out.println(contaDaAna.saldo);
 		System.out.println(contaDoJoao.saldo);
+		
+		contaDoJoao.titular = "joao da silva";
+		System.out.println(contaDoJoao.titular);
 	}
 	
 }
